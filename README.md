@@ -1,30 +1,41 @@
 <!--
   README.md — GitHub Profile for Matheeshkumar368
-  Theme: CYBERPUNK — neon magenta/cyan on void-black, glitch typography.
+  Theme: CYBERPUNK — neon magenta/cyan on void-black, Archivo Black display font.
 
-  100% GitHub-Markdown safe. No JavaScript, no CSS animation files —
-  every "glow" and "motion" effect below is a pre-rendered animated
-  SVG/image from a public generator, which is the only way to get
-  real animation inside a GitHub README (GitHub strips JS/CSS).
+  FIX FROM LAST VERSION: the header banner used animation="twinkling",
+  which capsule-render does NOT support — it silently failed and
+  rendered as a broken tiny icon, which is why your name disappeared.
+  Switched to animation="fadeIn" (a real supported value) everywhere.
 
-  REPLACE markers show exactly where to drop repo links once ready.
+  FONT NOTE: Arial Black is a licensed system font and cannot be
+  pulled from Google Fonts, which is what every one of these free
+  generators uses. "Archivo Black" is the closest visual match —
+  same ultra-bold blocky look — and is used throughout below.
+
+  100% GitHub-Markdown safe. No JavaScript. Every animated element
+  is a pre-rendered SVG from a public generator (the only way to get
+  real motion inside a README, since GitHub strips JS/CSS).
 -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:0d0221,50:ff2079,100:00fff9&height=230&section=header&text=MATHEESH%20KUMAR&fontSize=46&fontColor=00fff9&animation=twinkling&fontAlignY=38&desc=%3C%2F%3E%20FULL%20STACK%20DEVELOPER&descAlignY=58&descSize=18&descColor=ff2079" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,100:ff2079&height=230&section=header&text=MATHEESH%20KUMAR&fontSize=52&fontColor=00fff9&fontAlignY=35&animation=fadeIn&desc=%3C%2F%3E%20FULL%20STACK%20DEVELOPER&descAlignY=58&descSize=18&descColor=ffffff" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=00FFF9&center=true&vCenter=true&width=650&lines=%3E+building+full-stack+systems...;Java+%7C+Spring+Boot+%7C+REST+APIs;React+%7C+JavaScript+%7C+MySQL;final-year+CSBS+student;status%3A+shipping" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Archivo+Black&weight=900&size=24&duration=3000&pause=800&color=00FFF9&center=true&vCenter=true&width=700&lines=%3E+FULL+STACK+DEVELOPER;JAVA+%7C+SPRING+BOOT+%7C+REST+APIs;REACT+%7C+JAVASCRIPT+%7C+MYSQL;FINAL-YEAR+CSBS+STUDENT" />
 </a>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:ff2079,100:00fff9&height=4" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:ff2079,50:9d00ff,100:00fff9&height=5" />
 
 </div>
 
 <br />
 
-## <img src="https://capsule-render.vercel.app/api?type=transparent&height=1" /> `01_ABOUT.exe`
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff2079,100:00fff9&height=3&section=header" />
+</div>
+
+## <img src="https://em-content.zobj.net/source/microsoft-teams/363/laptop_1f4bb.png" width="28" /> `01_ABOUT.exe`
 
 <table>
 <tr>
@@ -35,12 +46,12 @@
 name: Matheesh Kumar
 role: Full Stack Developer
 year: Final Year CSBS @ VSB Engineering College
-stack: Java · Spring Boot · React · MySQL · REST APIs
+stack: Java · Spring Boot · React · JavaScript · MySQL
 mindset: ship real systems, not tutorial demos
 status: [ONLINE] — open to opportunities
 ```
 
-I build across the whole stack — **Spring Boot + REST APIs + JWT security** on the backend, wired up to clean, functional **JavaScript/React frontends**, backed by **MySQL**. I like owning a feature end to end: schema → API → UI.
+I build across the whole stack — **Spring Boot + REST APIs + JWT security** on the backend, wired to clean **JavaScript/React frontends**, backed by **MySQL**. I like owning a feature end to end: schema → API → UI.
 
 Currently deep in **System Design** and **DSA**, sharpening the fundamentals under the frameworks.
 
@@ -51,14 +62,16 @@ Currently deep in **System Design** and **DSA**, sharpening the fundamentals und
 - 🎓 Final Year CSBS Student
 - 🌐 Full Stack Developer
 - 🧠 Learning: System Design, DSA
-- ⚡ Backend-heavy, frontend-capable
+- ⚡ Backend + Frontend, end-to-end
 - 📡 Open to full stack / SDE roles
 
 </td>
 </tr>
 </table>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:00fff9,100:ff2079&height=3" />
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00fff9,100:ff2079&height=3&section=header" />
+</div>
 
 ## `02_TECH_STACK.sys`
 
@@ -81,7 +94,9 @@ Currently deep in **System Design** and **DSA**, sharpening the fundamentals und
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:ff2079,100:00fff9&height=3" />
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff2079,100:00fff9&height=3&section=header" />
+</div>
 
 ## `03_PROJECTS.db`
 
@@ -132,7 +147,9 @@ Full stack platform connecting alumni and students for networking and engagement
 </tr>
 </table>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:00fff9,100:ff2079&height=3" />
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00fff9,100:ff2079&height=3&section=header" />
+</div>
 
 ## `04_STATS.log`
 
@@ -143,12 +160,18 @@ Full stack platform connecting alumni and students for networking and engagement
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Matheeshkumar368&hide_border=true&background=0d0221&ring=ff2079&fire=ff2079&currStreakLabel=00fff9&sideLabels=00fff9&dates=6a6a6a" />
 
+<br />
+
+<!-- Trophy case — zero setup needed, updates automatically -->
+<img src="https://github-profile-trophy.vercel.app/?username=Matheeshkumar368&theme=radical&no-frame=true&column=7&margin-w=8&margin-h=8" />
+
 </div>
 
 <!--
   ============================================================
   OPTIONAL — 3D isometric contribution graph (rare, high impact)
-  Needs a one-time GitHub Action (~2 min). Skip for now if rushed.
+  Needs a one-time GitHub Action (~2 min). Skip for now if rushed,
+  come back to it later — the README works fully without it.
 
   1. Repo → Actions tab → "set up a workflow yourself"
   2. Create .github/workflows/3d-contrib.yml with:
@@ -171,14 +194,15 @@ Full stack platform connecting alumni and students for networking and engagement
                file_pattern: "profile-3d-contrib/*.svg"
 
   3. Commit, then run it once manually (Actions tab → Run workflow)
-  4. Uncomment the line below — pick the neon-friendly "moonlight" or
-     "highcontrast" theme if available, to match this design.
+  4. Uncomment the line below once the file exists in your repo.
 
   <img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" />
   ============================================================
 -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:ff2079,100:00fff9&height=3" />
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff2079,100:00fff9&height=3&section=header" />
+</div>
 
 ## `05_CONNECT.link`
 
@@ -196,4 +220,4 @@ Full stack platform connecting alumni and students for networking and engagement
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:00fff9,100:ff2079&height=100&section=footer&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00fff9,100:ff2079&height=110&section=footer&animation=fadeIn" />
