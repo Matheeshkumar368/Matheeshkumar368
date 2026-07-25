@@ -1,36 +1,33 @@
 <!--
-  README.md — GitHub Profile
-  Owner: Matheeshkumar368
-  Design concept: "System Boot" — the profile reads like a terminal
-  booting up a developer, instead of the usual badge-wall template.
-  Everything below is 100% GitHub-supported Markdown/HTML — no
-  external animation engine required, so it always renders correctly
-  on github.com and on mobile.
+  README.md — GitHub Profile for Matheeshkumar368
 
-  🔧 REPLACE-ME MARKERS: search this file for "REPLACE" to find every
-  spot that needs your real links (LinkedIn, portfolio, LeetCode,
-  email, banner GIF, etc).
+  ⚠️ IMPORTANT REALITY CHECK ⚠️
+  GitHub strips ALL JavaScript, iframes, and CSS animation from
+  README files — it only renders Markdown, static HTML tags, and
+  images/SVGs. True "3D" or JS-driven animation cannot run inside
+  a README; that's a GitHub platform limit, not a tool limitation.
+
+  What THIS file uses instead — all of which genuinely animate/update
+  and are NOT the typical badge-wall template:
+    1. capsule-render — animated gradient wave banner (SVG, auto-plays)
+    2. readme-typing-svg — animated typing text (SVG, auto-plays)
+    3. github-profile-3d-contrib — a real ISOMETRIC 3D-STYLE render
+       of your contribution graph (image, regenerated daily via a
+       GitHub Action — setup steps are in the comment below it)
+
+  Everything below is 100% GitHub-Markdown safe and will render
+  correctly the moment you paste it in — no errors, no broken syntax.
 -->
 
 <div align="center">
 
-<!-- REPLACE: swap this line for your animated skyline banner once it's ready -->
-<img src="https://REPLACE-WITH-YOUR-BANNER-GIF-URL" width="100%" alt="banner" />
+<!-- Animated gradient wave banner — plays automatically, no setup needed -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=MATHEESH%20KUMAR&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Java%20Backend%20Developer&descAlignY=58&descSize=20" />
 
-<br />
-
-```text
-$ whoami
-matheeshkumar368 — Java Backend Developer
-
-$ status
-[ BOOTING PROFILE... ]
-[ OK ] Loaded core: Java, Spring Boot
-[ OK ] Loaded core: MySQL, REST APIs
-[ OK ] Mounted: /final-year/csbs-student
-[ OK ] Target acquired: Software Engineer role
-[ READY ] Welcome to my GitHub.
-```
+<!-- Animated typing text — cycles automatically, no setup needed -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Java+Backend+Developer;Spring+Boot+%7C+REST+APIs+%7C+MySQL;Final+Year+CSBS+Student;Always+Learning+System+Design" />
+</a>
 
 </div>
 
@@ -42,9 +39,9 @@ $ status
 <tr>
 <td width="60%" valign="top">
 
-I'm **Matheesh Kumar**, a final-year **Computer Science and Business Systems** student building backend systems that actually hold up under real use — not just tutorial demos.
+I'm **Matheesh Kumar**, a final-year **Computer Science and Business Systems** student building backend systems that hold up under real use — not just tutorial demos.
 
-I spend most of my time in **Java + Spring Boot**, wiring up REST APIs, securing them with JWT, and shaping the data layer in MySQL. Right now I'm deep in **System Design** and **DSA**, sharpening the fundamentals that don't go out of style.
+I spend most of my time in **Java + Spring Boot**, wiring up REST APIs, securing them with JWT, and shaping the data layer in MySQL. Right now I'm deep in **System Design** and **DSA**.
 
 ```yaml
 role: Java Backend Developer
@@ -73,21 +70,17 @@ mode: shipping projects + placement prep
 
 <div align="center">
 
-**Languages**
-<br />
 <img src="https://skillicons.dev/icons?i=java,py,js" />
-
-**Backend**
-<br />
+<br /><sub>Languages</sub>
+<br /><br />
 <img src="https://skillicons.dev/icons?i=spring,mysql" />
-
-**Frontend**
-<br />
+<br /><sub>Backend</sub>
+<br /><br />
 <img src="https://skillicons.dev/icons?i=html,css,bootstrap" />
-
-**Tools**
-<br />
+<br /><sub>Frontend</sub>
+<br /><br />
 <img src="https://skillicons.dev/icons?i=git,github,vscode,idea,postman" />
+<br /><sub>Tools</sub>
 
 </div>
 
@@ -153,9 +146,43 @@ A platform connecting alumni and students for networking and engagement.
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Matheeshkumar368&theme=tokyonight&hide_border=true" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Matheeshkumar368&theme=tokyo-night&hide_border=true" width="95%" />
-
 </div>
+
+<!--
+  ============================================================
+  OPTIONAL — genuinely rare "3D contribution graph"
+  This needs a ~2 minute GitHub Action setup (one-time).
+  Skip this whole block for now if you're short on time — the
+  README above works perfectly without it. Come back later.
+
+  SETUP (do this in your Matheeshkumar368/Matheeshkumar368 repo):
+  1. Go to your repo → Actions tab → "set up a workflow yourself"
+  2. Create a file at .github/workflows/3d-contrib.yml with:
+
+     name: 3D Contribution Graph
+     on:
+       schedule: [{cron: "0 */6 * * *"}]
+       workflow_dispatch:
+     jobs:
+       build:
+         runs-on: ubuntu-latest
+         steps:
+           - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+             env:
+               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+               USERNAME: ${{ github.repository_owner }}
+           - uses: stefanzweifel/git-auto-commit-action@v5
+             with:
+               commit_message: "generate 3d contribution graph"
+               file_pattern: "profile-3d-contrib/*.svg"
+
+  3. Commit it, run it once manually (Actions tab → Run workflow)
+  4. Then uncomment the line below — the file path will already
+     match what the Action generates.
+
+  <img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" />
+  ============================================================
+-->
 
 <br />
 
@@ -163,15 +190,14 @@ A platform connecting alumni and students for networking and engagement.
 
 <div align="center">
 
-<!-- REPLACE each href below with your real profile links -->
-<a href="https://www.linkedin.com/in/REPLACE"><img src="https://skillicons.dev/icons?i=linkedin" /></a>&nbsp;
-<a href="https://REPLACE-YOUR-PORTFOLIO.com"><img src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" height="28" /></a>&nbsp;
-<a href="mailto:REPLACE@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" /></a>&nbsp;
-<a href="https://leetcode.com/REPLACE"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="28" /></a>
+<a href="https://www.linkedin.com/in/matheeshkumar-s-1b8701387/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>&nbsp;
+<a href="https://matteeshu-3d-journey.lovable.app"><img src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" height="28" /></a>&nbsp;
+<a href="mailto:matheeshkumar2@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" /></a>&nbsp;
+<a href="https://leetcode.com/u/MATHEESHKUMAR_S/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="28" /></a>&nbsp;
+<a href="https://drive.google.com/file/d/1e0Dje1_0K1RYToh2VpitkpMHKxf4TNeD/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" height="28" /></a>
 
 <br /><br />
 
-<!-- REPLACE the visitor-badge username if you rename the repo -->
 <img src="https://komarev.com/ghpvc/?username=Matheeshkumar368&label=Profile%20Views&color=0e75b6&style=flat" />
 
 </div>
@@ -179,9 +205,5 @@ A platform connecting alumni and students for networking and engagement.
 <br />
 
 <div align="center">
-
-```text
-$ echo "Code. Learn. Improve. Repeat."
-```
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" />
 </div>
