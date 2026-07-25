@@ -2,27 +2,28 @@
   README.md — GitHub Profile for Matheeshkumar368
   Theme: CYBERPUNK — neon magenta/cyan on void-black, Archivo Black display font.
 
-  FIX FROM LAST VERSION: the header banner used animation="twinkling",
-  which capsule-render does NOT support — it silently failed and
-  rendered as a broken tiny icon, which is why your name disappeared.
-  Switched to animation="fadeIn" (a real supported value) everywhere.
+  ROOT CAUSE OF THE BROKEN BANNER (finally found it):
+  capsule-render does NOT allow certain special characters inside its
+  text/desc parameters — specifically '#', '&', and '/'. The previous
+  version had "</>" baked into the desc text, and that slash silently
+  broke the entire image request, which is why it rendered as a tiny
+  broken icon and your name never appeared. Removed all special
+  characters from every capsule-render text/desc field below.
 
-  FONT NOTE: Arial Black is a licensed system font and cannot be
-  pulled from Google Fonts, which is what every one of these free
-  generators uses. "Archivo Black" is the closest visual match —
-  same ultra-bold blocky look — and is used throughout below.
+  FONT NOTE: Arial Black is a licensed system font, unavailable on
+  Google Fonts (which every one of these generators pulls from).
+  "Archivo Black" is the closest visual match — used throughout.
 
-  100% GitHub-Markdown safe. No JavaScript. Every animated element
-  is a pre-rendered SVG from a public generator (the only way to get
-  real motion inside a README, since GitHub strips JS/CSS).
+  100% GitHub-Markdown safe. No JavaScript. Every animated element is
+  a pre-rendered SVG from a public generator.
 -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,100:ff2079&height=230&section=header&text=MATHEESH%20KUMAR&fontSize=52&fontColor=00fff9&fontAlignY=35&animation=fadeIn&desc=%3C%2F%3E%20FULL%20STACK%20DEVELOPER&descAlignY=58&descSize=18&descColor=ffffff" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,100:ff2079&height=230&section=header&text=MATHEESH%20KUMAR%20S&fontSize=48&fontColor=00fff9&fontAlignY=35&animation=fadeIn&desc=FULL%20STACK%20DEVELOPER&descAlignY=58&descSize=18&descColor=ffffff" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Archivo+Black&weight=900&size=24&duration=3000&pause=800&color=00FFF9&center=true&vCenter=true&width=700&lines=%3E+FULL+STACK+DEVELOPER;JAVA+%7C+SPRING+BOOT+%7C+REST+APIs;REACT+%7C+JAVASCRIPT+%7C+MYSQL;FINAL-YEAR+CSBS+STUDENT" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Archivo+Black&weight=900&size=24&duration=3000&pause=800&color=00FFF9&center=true&vCenter=true&width=700&lines=FULL+STACK+DEVELOPER;JAVA+%7C+SPRING+BOOT+%7C+REST+APIs;REACT+%7C+JAVASCRIPT+%7C+MYSQL;FINAL-YEAR+CSBS+STUDENT" />
 </a>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:ff2079,50:9d00ff,100:00fff9&height=5" />
@@ -35,7 +36,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff2079,100:00fff9&height=3&section=header" />
 </div>
 
-## <img src="https://em-content.zobj.net/source/microsoft-teams/363/laptop_1f4bb.png" width="28" /> `01_ABOUT.exe`
+## `01_ABOUT.exe`
 
 <table>
 <tr>
@@ -43,7 +44,7 @@
 
 ```yaml
 > whoami
-name: Matheesh Kumar
+name: Matheesh Kumar S
 role: Full Stack Developer
 year: Final Year CSBS @ VSB Engineering College
 stack: Java · Spring Boot · React · JavaScript · MySQL
@@ -109,7 +110,7 @@ Real-time disaster alerts, monitoring, and emergency resource management with ro
 
 `Java` `Spring Boot` `MySQL` `JWT` `REST API`
 
-<!-- REPLACE: <a href="YOUR_REPO_LINK">→ VIEW_REPO</a> -->
+<!-- REPLACE: <a href="YOUR_REPO_LINK">View Repo</a> -->
 
 </td>
 <td width="50%" valign="top">
@@ -119,7 +120,7 @@ Full stack fitness + productivity platform — workout tracking, daily tasks, ha
 
 `Java` `Spring Boot` `MySQL` `HTML` `CSS` `JavaScript`
 
-<!-- REPLACE: <a href="YOUR_REPO_LINK">→ VIEW_REPO</a> -->
+<!-- REPLACE: <a href="YOUR_REPO_LINK">View Repo</a> -->
 
 </td>
 </tr>
@@ -131,7 +132,7 @@ Full stack web app for collecting and managing feedback with secure authenticati
 
 `Java` `Spring Boot` `MySQL`
 
-<!-- REPLACE: <a href="YOUR_REPO_LINK">→ VIEW_REPO</a> -->
+<!-- REPLACE: <a href="YOUR_REPO_LINK">View Repo</a> -->
 
 </td>
 <td width="50%" valign="top">
@@ -141,7 +142,7 @@ Full stack platform connecting alumni and students for networking and engagement
 
 `Java` `Spring Boot` `MySQL`
 
-<!-- REPLACE: <a href="YOUR_REPO_LINK">→ VIEW_REPO</a> -->
+<!-- REPLACE: <a href="YOUR_REPO_LINK">View Repo</a> -->
 
 </td>
 </tr>
@@ -162,7 +163,6 @@ Full stack platform connecting alumni and students for networking and engagement
 
 <br />
 
-<!-- Trophy case — zero setup needed, updates automatically -->
 <img src="https://github-profile-trophy.vercel.app/?username=Matheeshkumar368&theme=radical&no-frame=true&column=7&margin-w=8&margin-h=8" />
 
 </div>
@@ -170,8 +170,7 @@ Full stack platform connecting alumni and students for networking and engagement
 <!--
   ============================================================
   OPTIONAL — 3D isometric contribution graph (rare, high impact)
-  Needs a one-time GitHub Action (~2 min). Skip for now if rushed,
-  come back to it later — the README works fully without it.
+  Needs a one-time GitHub Action (~2 min). Skip for now if rushed.
 
   1. Repo → Actions tab → "set up a workflow yourself"
   2. Create .github/workflows/3d-contrib.yml with:
