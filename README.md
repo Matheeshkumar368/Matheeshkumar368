@@ -1,5 +1,3 @@
-<img width="400" height="225" alt="logoremover_1785003317919 (2)" src="https://github.com/user-attachments/assets/3a93cc9d-6ec7-43ed-b2ba-58854d1f2e9b" />
-
 
 
 
