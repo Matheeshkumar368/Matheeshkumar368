@@ -1,6 +1,8 @@
 <div align="center">
 
-# MATHEESH KUMAR S
+<img src="./assets/3d-developer-hero.svg" width="100%" alt="3D developer workspace showing Matheesh Kumar S, Spring Boot, MySQL, API and UI" />
+
+<br />
 
 ### SOFTWARE DEVELOPER · JAVA · SPRING BOOT · REST APIs
 
@@ -15,7 +17,7 @@
 
 ---
 
-## `01 / PROFILE`
+## `01 / THE DEVELOPER`
 
 <table>
 <tr>
@@ -54,29 +56,35 @@ SHIP      ██████████████████░  90%
 
 ---
 
-## `02 / WHAT I BUILD`
+## `02 / 3D ENGINEERING MAP`
+
+<div align="center">
 
 ```text
-┌──────────────────────────────────────────────────────────────┐
-│                        MY DEVELOPMENT FLOW                    │
-├──────────────────────────────────────────────────────────────┤
-│  IDEA                                                        │
-│   ↓                                                          │
-│  DATA MODEL → MYSQL                                         │
-│   ↓                                                          │
-│  API DESIGN → SPRING BOOT / REST                            │
-│   ↓                                                          │
-│  SECURITY → JWT / RBAC                                      │
-│   ↓                                                          │
-│  TESTING → POSTMAN                                          │
-│   ↓                                                          │
-│  FRONTEND → HTML / CSS / JAVASCRIPT                         │
-│   ↓                                                          │
-│  GIT / GITHUB → VERSION CONTROL                             │
-└──────────────────────────────────────────────────────────────┘
+                         ┌───────────────┐
+                         │    PRODUCT    │
+                         └───────┬───────┘
+                                 │
+                 ┌───────────────▼───────────────┐
+                 │          SPRING BOOT          │
+                 │       REST API + LOGIC        │
+                 └───────────────┬───────────────┘
+                                 │
+            ┌────────────────────┼────────────────────┐
+            ▼                    ▼                    ▼
+        ┌────────┐          ┌─────────┐          ┌─────────┐
+        │  JWT   │          │  RBAC   │          │ POSTMAN │
+        └────────┘          └─────────┘          └─────────┘
+                                 │
+                         ┌───────▼───────┐
+                         │     MYSQL     │
+                         │   DATA LAYER  │
+                         └───────────────┘
 ```
 
-This is the kind of end-to-end ownership I want to keep improving throughout my software career.
+</div>
+
+The visual above represents how I think about applications: **not as isolated code files, but as connected systems.**
 
 ---
 
@@ -207,7 +215,19 @@ Sakthi Sai Matriculation Higher Secondary School
 
 ---
 
-## `09 / CURRENT MISSION`
+## `09 / 3D CONTRIBUTION WALL`
+
+<div align="center">
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub contribution graph" />
+
+</div>
+
+> This section is generated automatically by GitHub Actions and turns the contribution history into a 3D isometric wall.
+
+---
+
+## `10 / CURRENT MISSION`
 
 > **Become the kind of developer who understands why a system works — not just how to make it run.**
 
@@ -217,7 +237,7 @@ Right now I am strengthening:
 
 ---
 
-## `10 / GITHUB SIGNAL`
+## `11 / GITHUB SIGNAL`
 
 <div align="center">
 
@@ -228,7 +248,7 @@ Right now I am strengthening:
 
 ---
 
-## `11 / LET'S CONNECT`
+## `12 / LET'S CONNECT`
 
 <div align="center">
 
