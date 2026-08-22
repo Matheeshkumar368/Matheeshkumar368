@@ -25,10 +25,10 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,100:ff2079&height=230&section=header&text=MATHEESH%20KUMAR%20S&fontSize=48&fontColor=00fff9&fontAlignY=35&animation=fadeIn&desc=FULL%20STACK%20DEVELOPER&descAlignY=58&descSize=18&descColor=ffffff" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,100:ff2079&height=230&section=header&text=MATHEESH%20KUMAR%20S&fontSize=48&fontColor=00fff9&fontAlignY=35&animation=fadeIn&desc=SOFTWARE%20DEVELOPER&descAlignY=58&descSize=18&descColor=ffffff" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Archivo+Black&weight=900&size=24&duration=3000&pause=800&color=00FFF9&center=true&vCenter=true&width=700&lines=FULL+STACK+DEVELOPER;JAVA+%7C+SPRING+BOOT+%7C+REST+APIs;REACT+%7C+JAVASCRIPT+%7C+MYSQL;FINAL-YEAR+CSBS+STUDENT" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Archivo+Black&weight=900&size=24&duration=3000&pause=800&color=00FFF9&center=true&vCenter=true&width=700&lines=SOFTWARE+DEVELOPER;JAVA+%7C+SPRING+BOOT+%7C+REST+APIs;REACT+%7C+JAVASCRIPT+%7C+MYSQL;FINAL-YEAR+CSBS+STUDENT" />
 </a>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:ff2079,50:9d00ff,100:00fff9&height=5" />
@@ -50,7 +50,7 @@
 ```yaml
 > whoami
 name: Matheesh Kumar S
-role: Full Stack Developer
+role: Software Developer
 year: Final Year CSBS @ VSB Engineering College
 stack: Java · Spring Boot · React · JavaScript · MySQL
 mindset: ship real systems, not tutorial demos
@@ -66,7 +66,7 @@ Currently deep in **System Design** and **DSA**, sharpening the fundamentals und
 
 **// SYSTEM_INFO**
 - 🎓 Final Year CSBS Student
-- 🌐 Full Stack Developer
+- 💻 Software Developer
 - 🧠 Learning: System Design, DSA
 - ⚡ Backend + Frontend, end-to-end
 - 📡 Open to full stack / SDE roles
