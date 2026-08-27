@@ -74,7 +74,7 @@ Currently focused on **System Design** and **DSA**, sharpening fundamentals whil
   <img src="https://img.shields.io/badge/Git-0d0221?style=for-the-badge&logo=git&logoColor=00fff9" />
   <img src="https://img.shields.io/badge/GitHub-0d0221?style=for-the-badge&logo=github&logoColor=ff2079" />
   <img src="https://img.shields.io/badge/Postman-0d0221?style=for-the-badge&logo=postman&logoColor=00fff9" />
-  <img src="https://img.shields.io/badge/IntelliJ_IDEA-0d0221?style=for-the-badge&logo=intellijidea&logoColor=00fff9" />
+  <img src="https://img.shields.io/badge/IntelliJ_IDEA-0d0221?style=for-the-badge&logo=intellijidea&logoColor=ff2079" />
 </div>
 
 <br />
