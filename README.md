@@ -26,7 +26,6 @@
 
 ```yaml
 name: Matheesh Kumar S
-role: Full Stack Developer
 year: Final Year CSBS @ VSB Engineering College
 stack: Java · Spring Boot · React · JavaScript · MySQL
 mindset: ship real systems, not tutorial demos
