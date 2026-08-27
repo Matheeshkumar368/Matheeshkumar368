@@ -16,13 +16,13 @@
   <img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff2079,100:00fff9&height=3&section=header" />
 </div>
 
-## 01_ABOUT.exe
+## About
 
 <table width="100%">
   <tr>
     <td width="62%" valign="top">
 
-### whoami
+### Who I Am
 
 ```yaml
 name: Matheesh Kumar S
@@ -39,7 +39,7 @@ Currently focused on **System Design** and **DSA**, sharpening fundamentals whil
     </td>
     <td width="38%" valign="top">
 
-### SYSTEM_INFO
+### Quick Info
 
 🎓 Final Year CSBS Student  
 🌐 Full Stack Developer  
@@ -57,7 +57,7 @@ Currently focused on **System Design** and **DSA**, sharpening fundamentals whil
   <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00fff9,100:ff2079&height=3&section=header" />
 </div>
 
-## 02_TECH_STACK.sys
+## Tech Stack
 
 <div align="center">
   <img src="https://img.shields.io/badge/Java-0d0221?style=for-the-badge&logo=openjdk&logoColor=00fff9" />
@@ -82,7 +82,7 @@ Currently focused on **System Design** and **DSA**, sharpening fundamentals whil
   <img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff2079,100:00fff9&height=3&section=header" />
 </div>
 
-## 03_PROJECTS.db
+## Projects
 
 <table width="100%">
   <tr>
@@ -133,7 +133,7 @@ Full-stack platform connecting alumni and students for networking, communication
   <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00fff9,100:ff2079&height=3&section=header" />
 </div>
 
-## 04_STATS.log
+## GitHub Stats
 
 <div align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=Matheeshkumar368&show_icons=true&hide_border=true&bg_color=0d0221&title_color=ff2079&icon_color=00fff9&text_color=00fff9&count_private=true" />
@@ -150,7 +150,7 @@ Full-stack platform connecting alumni and students for networking, communication
   <img src="https://capsule-render.vercel.app/api?type=venom&color=0:ff2079,100:00fff9&height=3&section=header" />
 </div>
 
-## 05_CONNECT.link
+## Connect
 
 <div align="center">
   <a href="https://www.linkedin.com/in/matheeshkumar-s-1b8701387/"><img src="https://img.shields.io/badge/LinkedIn-0d0221?style=for-the-badge&logo=linkedin&logoColor=00fff9" /></a>
